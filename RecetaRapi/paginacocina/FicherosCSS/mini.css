@@ -1,0 +1,72 @@
+.display-mini{
+	display: inherit !important;
+}
+
+
+#buscador input {
+	width: 35%;
+	font-size: 12px;
+	
+
+	}
+#buscador button{
+	font-size: 57%
+}
+
+/*MENU*/
+
+#barraboton  {
+	font-size: 13.4px;
+}
+
+#INICIOSESION{
+	font-size: 13.4px;
+}
+
+#MIPERFIL{
+	font-size: 13.4px;
+}
+
+#menu{
+	font-size: 13.4px;
+}
+td.barra#ancho2{
+width: auto;
+}
+td.barra#ancho{
+width: 20%;
+}
+img#cerrars.cerrar{
+width: 15px;
+height: 15px;
+}
+
+/*TABLA CATEGORIAS*/
+
+caption.titulo-cate{
+	font-size: 25px;
+}
+
+td.cuadro{
+	font-size: 15px;
+}
+
+h2.categoria{
+	font-size: 15px;
+}
+
+p.parrafo{
+	font-size: 29px;
+	margin-left: 50px;
+	margin-right: 50px; 
+}
+
+table.tabla2{
+	display: none;
+}
+
+.pizza{
+	text-indent:8px; 
+}
+
+

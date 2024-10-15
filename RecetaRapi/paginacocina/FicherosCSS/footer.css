@@ -1,0 +1,137 @@
+.display-great{
+	display: none;
+}
+
+.display-medium{
+	display: none;
+}
+.display-mini{
+	display: none;
+}
+
+.display-peque{
+	display: none;
+}
+.display-mini3{
+	display: none;
+}
+
+.display-mini4{
+	display: none;
+}
+.display-mini5{
+	display: none;
+}
+.display-mini6{
+	display: none;
+}
+.display-mini7{
+	display: none;
+}
+.display-mini8{
+	display: none;
+}
+
+/*PIE DE PAGINA */
+footer{
+	background-color: rgba(255,165,0,0.8) ;
+	width: 100%;
+	height: 250px;
+	bottom: 0px;
+	border-top: 5px outset orange;
+	margin-top: 40px;  
+	position: none;
+}
+#iconoredes{
+	width: 40px;
+	height: 40px;
+}
+#listapopular{
+	margin:0 0;
+	width: 100%;
+	padding: 0;
+	position: absolute;
+	list-style: none;
+	text-align: center;
+}
+#Titulopopular{
+	margin-top: 0;
+	width: 100%;
+	text-decoration: underline;
+	font-family: century Gothic;
+	margin-bottom: 4px;
+	color:black;
+}
+#Tags,#EnlacePopular{
+	font-family: Century Gothic;
+	font-size: 18px;
+	line-height: 30px;
+	margin-top: 0;
+}
+#listaredes {
+	float: right;
+	margin: 0 0;
+	margin-right: 10%;
+	list-style: none;
+	display: inline;
+}
+#listadoredes{
+	display: inline;
+	padding-left: 10px;
+}
+
+#Tituloredes{
+	margin:0 0;
+	text-decoration: underline;
+	font-family: century Gothic;
+	margin-bottom: 40px;
+	text-align: center;
+	color: black;
+}
+
+div.vertical-line {
+	background-color: black;
+	height: 180px;
+	width: 3px;
+	position: absolute;
+	left: 67%;
+
+}
+#politica{
+	float: left;
+	display: block;
+	margin: 0 0;
+	margin-left: 7%;
+	padding: 0 0;
+}
+
+#listadoprivacidad{
+	list-style:none;
+	display: block;
+	position: relative;
+	font-family: Century Gothic;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration:none;
+	line-height: 50px
+}
+div.line{
+	background-color: black;
+	height: 180px;
+	width: 3px;
+	position: absolute;
+	left: 33.5%;
+}
+
+#EnlacePopular, #enlacepriv{
+	color:black;
+	
+}
+#EnlacePopular:hover, #enlacepriv:hover{
+	color:black;
+	text-decoration: underline;
+}
+
+
+
+

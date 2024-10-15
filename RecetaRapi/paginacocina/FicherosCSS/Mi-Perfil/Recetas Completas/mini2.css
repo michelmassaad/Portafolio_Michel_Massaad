@@ -1,0 +1,184 @@
+.display-peque{
+	display: inherit !important;
+}
+
+div.cuadro-perfil{
+	border:inset orange 5px;
+	width: auto;
+	margin-left: 13%;
+	margin-right: 13%;
+}
+
+.nombre-correo{
+	font-size: 14.5px;
+	margin-top: 20px;
+}
+p.lapiz{
+	font-size: 19px;
+}
+
+#top10 {
+	font-size: 24px;
+	margin-left:75%;
+	margin-right: 30px;
+	width: 30%
+	margin-top: 25px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top:20px ;
+	padding-bottom: 430px;
+}
+p#description{
+	font-size: 16px;
+	margin-left:71% ;
+	margin-top: 120px;
+}	
+/*Caja de inicio*/
+
+.login {
+  width: 210px;
+  height: 400px;
+  border: 4.5px inset orange;
+  left: 75%;
+  right: 30px;
+  padding: 70px 30px;
+  border-radius: 5%;
+}
+.login .avatar {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  top: -35px;
+  left: calc(50% - 40px);
+
+}
+.login h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  font-size: 16px;
+}
+.login label {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+.login input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login input[type="email"], .login input[type="password"] {
+  border-bottom: 1px solid #000;
+  height: 35px;
+  font-size: 13px;
+}
+.login input[type="submit"] {
+  height: 35px;
+  font-size: 15px;
+}
+.login a {
+  font-size: 11px;
+  line-height: 20px;
+}
+
+
+/*cuadro bloque receta*/
+div.container{
+	margin-top: 25px;
+	margin-bottom: 0px;
+	border:4.5px inset orange;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 3%;
+	width: auto;
+	margin-right: 5%;
+	height: 235px;
+	margin-left: 5%;
+	padding: 15px;
+}
+
+div.flexslider{
+	width: 240px;
+	height: 240px;
+	margin-top: 15px;
+}
+
+/*SHOXSLIDE imagenes */
+.slides{
+	padding: 0;
+	margin: 0 15px;
+}
+.fotoreceta img{
+	width: 200px;
+	height: 200px;
+}
+
+ul .slides li.fotoreceta{
+	width: 200px;
+	height: 200px;
+}
+/*ESTILO DE PUNTOS DE SLIDE SHOW*/
+.flex-control-nav li{
+	margin-right: 12px;
+}
+.flex-control-nav li a{
+	border: 1.45px solid black;
+	width: 6px;
+	height: 6px;
+}
+
+ol.flex-control-nav, 
+.flex-control-paging{
+	width: 70px;
+	height: 10px;
+	margin-top: 180px ;
+	margin-left: 90px ;
+}
+li.flex-nav-next{
+	margin:0;
+}
+.flex-direction-nav li{
+	margin-top: 25px;
+	margin-right:120px;
+	margin-left:-18px ; 
+}
+.flex-direction-nav a:before {
+  font-size: 14px;  
+}
+a.flex-next:before{
+	padding: 50px 10px;
+} 
+li a.flex-prev {
+	padding: 50px 0;
+}
+ul.flex-direction-nav{
+	width: 400px;
+}
+/*TITULO*/
+h2.titulo{
+	font-size: 1.2em;
+	margin-top: 0px;
+} 
+
+/*ESTRELLAS*/
+form.clasificacion{
+	font-size: 1.35em;
+	height: 20px;
+}
+
+/*TIME COOK*/
+.cooktime{
+	top: 4px;
+	left: 20px;
+	font-size: 0.85em;
+}
+
+/*ETIQUETAS*/
+.etiquetas{
+	font-size: 16px;
+}
+/*INGREDIENTES*/
+p.ingredientes{
+	font-size: 0.9em;
+	margin-top: 15px;
+}
+

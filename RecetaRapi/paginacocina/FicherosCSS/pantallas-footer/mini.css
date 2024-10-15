@@ -1,0 +1,34 @@
+.display-mini{
+	display: inherit !important;
+}
+
+
+/*FOOTER*/
+#iconoredes{
+	width: 35px;
+	height: 35px;
+}
+
+#Tags,#EnlacePopular{
+	font-family: Century Gothic;
+	font-size: 15px;
+}
+#listadoredes{
+	padding-left: 8px;
+}
+#politica{
+	margin-left: 4%;
+}
+#listaredes {
+	margin-right: 5%;
+}
+#listadoprivacidad{
+	font-size: 15px;
+	line-height: 50px
+}
+#Titulopopular{
+	font-size: 21px;
+}
+#Tituloredes{
+	font-size: 21px;
+}

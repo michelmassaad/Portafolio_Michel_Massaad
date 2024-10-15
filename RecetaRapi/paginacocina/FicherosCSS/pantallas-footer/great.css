@@ -1,0 +1,10 @@
+.display-great{
+	display: inherit !important;
+}
+
+/*tabla categorias*/
+
+table.tabla2{
+	display: none;
+}
+

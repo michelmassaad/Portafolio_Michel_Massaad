@@ -1,0 +1,91 @@
+.display-mini4{
+	display: inherit !important;
+}
+
+
+ul.lista{
+	padding-top: 5px !important;
+}
+
+
+div.contacto{
+	display: none;
+}
+
+div.contacto-mini{
+	display:block;
+}
+
+.formulario{
+	width: 100%;
+	margin:auto;
+	text-align: right;
+}
+div.cuadro-form{
+	margin-left: 5%;
+	margin-right: 5%;
+	border:solid 5px;
+	border-bottom-right-radius: 5%; 
+	border-bottom-left-radius: 5%; 
+	background:rgba(255,255,255,1);
+}
+div.Mensaje{
+	text-align: right;
+	margin-right: 15%;
+}
+div.sexo{
+	width: 53%;
+	text-align: right;
+}
+input{
+	width: 65%;
+	font-size: 16px;
+}
+textarea{
+	min-width:64.5%;
+	max-width: 64.5%; 
+	font-size: 16px;
+}
+h2.titulo{
+	padding-bottom:20px;
+	margin-top: 20px; 
+	font-size: 27px;
+}
+label{
+	font-size: 16px;
+	margin-right: 20px;
+}
+select{
+	font-size: 16px;
+	width: 50%;
+}
+input[type="submit"] {
+	margin-bottom: 40px;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+
+/*CONTACTO PAGINA*/
+div.contacto-pag{
+	border:solid 5px;
+	margin-right: 5%;
+	margin-left: 5%;
+	border-bottom: 0;
+	border-top-right-radius:4% ; 
+	border-top-left-radius:4% ; 
+}
+li.imagen{
+	padding-left:;
+	width: 70%; 
+	padding-top:25px ; 
+}
+
+p{
+}
+.imagen-correo,.imagen-redes{
+}
+div.lista-pag{
+}
+.imagen{
+}

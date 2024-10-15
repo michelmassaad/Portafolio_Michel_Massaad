@@ -1,0 +1,14 @@
+/*TITULO CATEGORIAS*/
+h2.title-categoria {
+	font-family: Century Gothic;
+	font-size: 45px;
+	margin: 0;
+	margin-left: 5%;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-bottom: 50px;
+	color: black;
+}
+h2.title-categoria:hover{
+	color: black;
+}

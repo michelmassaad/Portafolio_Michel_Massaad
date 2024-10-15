@@ -1,0 +1,57 @@
+.display-mini8{
+	display: inherit !important;
+}
+
+/*FOOTER*/
+#iconoredes{
+	width: 10px;
+	height: 10px;
+}
+
+#Tags,#EnlacePopular{
+	font-family: Century Gothic;
+	font-size: 7px;
+	line-height: 25px;
+
+}
+#listadoredes{
+	padding-left: 5px;
+}
+#politica{
+	margin: 0;
+	padding-left: 2%;
+	width: 27%;
+}
+
+#listaredes {
+	margin-right: 3%;
+}
+#listadoprivacidad{
+	font-size: 8px;
+	line-height: 20px;
+	width: 90%;
+	text-align: center;
+	margin-bottom: 0px ;
+	margin-left: 0px; 
+	margin-top: 15px;
+	margin-right: 0;
+	text-decoration: underline;
+}
+#Titulopopular{
+	font-size: 9px;
+	margin-top: 15px;
+}
+#Tituloredes{
+	margin-top: 15px;
+	font-size: 9px;
+}
+div.vertical-line {
+	width: 1.2px;
+}
+div.line{
+	width: 1.2px;
+}
+
+.mas{
+	display: none;
+}

@@ -1,0 +1,89 @@
+.display-mini{
+	display: inherit !important;
+}
+
+
+.login {
+  width: 270px;
+  height: 420px;
+  border: 5px inset orange;
+  top: 50%;
+  left: 50%;
+  padding: 60px 15px;
+  border-radius: 6%;
+}
+
+.login .avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: -40px;
+  left: calc(50% - 40px);
+}
+.login h1 {
+  font-size: 18px;
+}
+.login label {
+  font-size: 13px;
+}
+.login input{
+  font-size: 13px;
+}
+label#nombres{
+  width: 40%;
+  height: 20px;
+
+  margin-right: 2.5%;
+  float: left;
+  margin:0;
+}
+label#apellidos{
+  width: 140px;
+  height: 20px;
+  float: right;
+  margin: 0;
+}
+input#nombre{
+  width: 45%;
+  float: left;
+  margin-right: 0%; 
+}
+
+label#correos{
+  width: 40%;
+  height: 20px;
+  margin-right: 2.5%;
+  float: left;
+  margin:0;
+}
+label#passwords{
+  width: 45%;
+  height: 20px;
+  float: right;
+  margin: 0;
+}
+input#correo{
+  width: 45%;
+  float: left;
+  margin-right: 0%; 
+}
+
+.login input[type="email"],.login input[type="text"], .login input[type="password"] {
+  height: 40px;
+  font-size: 12px;
+}
+.login input[type="submit"] {
+  height: 35px;
+  width: 180px;
+  font-size: 13px;
+  margin-left: 20px;
+
+}
+
+.login a {
+  font-size: 11px;
+}
+a#yatienescuenta{
+  margin-left: calc(50% - 75px);
+}

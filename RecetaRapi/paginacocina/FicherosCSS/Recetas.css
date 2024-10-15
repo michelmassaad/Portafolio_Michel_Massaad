@@ -1,0 +1,586 @@
+.display-great{
+	display: none;
+}
+.display-medium{
+	display: none;
+}
+.dislay-mini{
+	display: none;
+}
+*{
+	margin-left:0;
+	margin-right:0;
+
+}
+
+body{
+	background-image: url(fondo2.jpeg);
+	background-repeat: repeat;
+	background-position:center;
+	background-attachment: fixed;
+	align-items:center;
+	text-align: :center;
+	margin-top: 0;
+}
+
+/*BANNER */
+	img #banner {
+		margin-top: 0;
+		align-items: center;
+		align-content: center;
+		float: center;
+		align-self: center;
+		direction: center;
+		margin-bottom: 0;
+		border-bottom: 0;
+		padding-bottom: 0;
+		width: 100%
+	}
+figure #banner{
+	margin-bottom: 0;
+	margin-top: 0;
+	width: 100%;
+	position: relative;
+}
+
+/*BARRA D NAVERGACION*/
+.no-style{
+	list-style-type:none;
+	text-decoration: none;
+	display: block;
+}
+
+.horizontal li {
+	
+}
+
+div #barra {
+	font-family: arial black;
+	border:outset;
+	border-color:orange;
+	border-width: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color:rgba(255,255,255,0.5);
+	width:96.2%;
+	word-spacing: 180px;
+	text-align: center;
+}
+.barra>li{
+	display: inline-block;
+}
+ul#barra{
+	margin:0;
+}
+li #CATEGORIA{
+
+}
+.barra li ul{
+	display:none;
+	position: absolute;
+}
+.barra li:hover> ul {
+	display: block;
+	text-align: left;
+	z-index: 9999999999999;
+	border:5px inset orange;
+	border-radius: 3% 3% 3% 3%;
+	background-color: rgba(255,255,255,1);
+	margin-top: 0px;
+	font: calibri; 
+	padding: ;
+
+}
+#menu{
+	list-style: none;
+	word-spacing: 0;
+	color:darkgreen;
+	font-size: 18px;
+
+}
+ul #menu{
+	margin-top: 0px;
+	padding: 5px 15px;
+	display:;
+	font:calibri;
+
+}
+#listado {
+	font-size: 20px;
+	margin:0;
+	font:calibri;
+	padding: 10px 5px;
+	white-space:pre;
+	width: 100%;
+}
+#menu a:hover{
+
+	background-color: rgba(255,165,0,0.6);
+	border:1px inset rgba(255,165,0,0.6);
+	border-radius: 5% 5% 5% 5%;
+}
+
+#barraboton  {
+	font-size: 20px;
+	color:#006400;
+
+
+}
+#barraboton:hover,#barraboton :active{
+	text-decoration-line: none;
+	color: orange;
+	background-color:transparent;
+	}
+
+a {
+	text-decoration-line: none;
+	color: black; 
+}
+
+
+a:hover,a:active{
+	text-decoration-line: none;
+	color: orange;
+	background-color:transparent;
+}
+/*ESTILO DEL BUSCADOR */
+#buscador input {
+	align-items: right;
+	align-content:right;
+	margin-right: 0px;
+	padding: 4px;
+	margin-top: 15px;
+	color: black;
+	border: inset;
+	border-color: orange;
+	text-transform: capitalize;
+	width: 30%;
+	margin-left: 0px;
+	font-family: calibri;
+	background-color:white;
+	font-size: 16px;
+	position: relative;
+}
+
+#buscador button{
+	position: relative;
+	align-items:right ;
+	padding: 5px;
+	margin-left: 0px;	
+	border: solid;
+	border-color: orange;
+	margin-top: 0px;
+	background-color:white;
+}
+
+
+
+/*SHOXSLIDE imagenes */
+.slides,
+.flex-control-nav,
+.flex-direction-nav,
+.flex-control-paging {
+  list-style: none;
+}
+ul.slides {
+	margin: 0;
+}
+.slides img{
+	width: 250px;
+	height: 250px;
+	image-rendering: pixelated;
+	 transform-origin: 0.5% 0.5%;
+  transition: transform 0.5s
+  margin-right:0;
+  margin-left: -20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  	border-bottom-right-radius:3%; 
+	border-top-right-radius:3%;
+	border-bottom-left-radius:3%; 
+	border-top-left-radius:3%;
+}
+
+.slides:hover img{
+	transform: scale(1.02);
+
+}
+
+li.flex-active-slide,
+.recetas  {
+	text-align: left;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-left: 0;
+	align-content: left;
+	max-width: 250px;
+	max-height: 250px;
+}
+ul .slides,.recetas{
+	max-width: 250px;
+	max-height:250px;
+	width: 0;
+	height: 0;
+	margin-top: -20px: 
+}
+
+/*ESTILO DE PUNTOS DE SLIDE SHOW*/
+
+.flex-control-nav li{
+	display: inline-block;
+	margin-right: 12px;
+	margin-top: 0;
+}
+ol.flex-control-nav, 
+.flex-control-paging{
+	margin-left: 80px;
+	margin-top:230px;
+	position: absolute;
+	width: 150px
+}
+
+.flex-control-nav li a{
+	display: block;
+	position: relative;
+	z-index: 99999999;
+	background: #D3D3D3;
+	border: 1.45px solid black;
+	width: 6px;
+	height: 6px;
+	border-radius: 6px ;  
+	text-indent: -9999px;
+	opacity: 0.3;
+}
+.flex-control-nav li a:hover{
+	background: #DCDCDC;
+	opacity: 0.8;
+}
+
+.flex-control-nav li a.flex-active{
+	background: #DCDCDC;
+	opacity: 2	
+}
+
+/*ESTILO DE FLECHAS DEL SHOW SLIDE */
+@font-face {
+  font-family: 'flexslider-icon';
+  src: url('fonts/flexslider-icon.eot');
+  src: url('fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'), url('fonts/flexslider-icon.woff') 
+  format('woff'), url('fonts/flexslider-icon.ttf') format('truetype'), url('fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.flex-direction-nav a{
+	z-index: 99999;
+	position: absolute;
+	display: block;
+	text-decoration: none;
+	width: 80px;
+	height: 50px;
+	  color:transparent; 
+}
+
+
+.flex-direction-nav{
+	margin-top:0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left:0px;
+
+}	
+
+.flex-nav-prev {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right:0;
+	margin-left:0;
+
+}
+
+.flex-nav-next{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-left:0;
+}
+
+.flex-next {
+	margin-top: 61px;
+	margin-bottom: 0;
+	margin-right:0 ;
+	margin-left: 215px;
+	padding: 50px 0;	
+}
+
+.flex-prev {
+	margin-top: 60px;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-left:-15px;
+	padding: 50px 0;
+
+}
+.flex-direction-nav a:before {
+  font-family: "flexslider-icon";
+  font-size: 15px;
+  display: inline-block;
+  content: '\f001';
+  color: #696969;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+  
+}
+.flex-direction-nav a.flex-next:before {
+  content: '\f002';
+}
+
+.flex-slider{
+	width: 270px;
+}
+div.flexslider{
+	width: 100%;
+	height: 1px;
+}
+/*TITULO DE RECETA */
+h2.recetas{
+	margin-left: 320px;
+	margin-right:1px;
+	position: relative;
+	width: 500px;
+	border-right: 10px;
+	padding-right: 400px;
+	width: 400px;
+	margin-top: 20px ;
+	margin-bottom: 0; 
+	font-family: Century Gothic ,arial;
+	font-size: 28px;
+}
+h2.maslargo{
+	margin-left: 320px;
+	font-size: 28px;
+	font-family: century Gothic,arial;
+	position: absolute;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+
+/*TIME COOK*/
+.cooktime{
+	position: absolute;
+	margin-left: 450px;
+	margin-right:0;
+	margin-top: 40px;
+	font-size: 15px;
+	font-family: Century Gothic;
+}
+
+/*ETIQUETAS PARA LAS CLASES*/
+
+
+
+
+
+/*ESTRELLAS DE CALIFICACION*/
+p.clasificacion{
+	position: absolute;
+	margin-left: 320px;
+	margin-right:0;
+	margin-top: 30px;
+}
+.estrellas {
+	font-size: 25px;
+
+}
+input[type="radio"] {
+  display: none;
+}
+label{
+	color:grey;
+}
+.active {
+  color: orange;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+label:active{
+	color:orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+
+/*CUADRO DE LA RECETA*/
+.cuadroreceta{
+	position: relative;
+	border: 5px inset orange;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 4% 4% 4% 4%;
+	margin-left: 20px;
+	margin-right: 30%;
+
+}	
+
+/*DESCRIPCION DE LA RECETA */
+.descripciondereceta {
+	position: absolute;
+	font-size: 18px;
+	font-family: ebrima,Century Gothic, arial;
+	white-space: pre;
+	left: 35%;
+	margin-top: 40px; 
+
+}
+
+#enlace {
+	color:black;
+}
+
+#toptitulo {
+	font-size: 35px;
+	font-family:Century Gothic,Maiandra GD, Arial ,Freestyle Script,MV Boli;
+	margin-left:71%;
+	margin-top: 25px;
+	margin-bottom:0 ;
+	margin-right:0 ;
+	padding-left: 30px;
+	padding-bottom: 480px ;
+	padding-right: 30px;
+	padding-top:20px ;
+	border: 5px outset;
+	border-bottom-right-radius:3%; 
+	border-top-right-radius:3%;
+	border-bottom-left-radius:3%; 
+	border-top-left-radius:3%;
+	border-color: orange;
+	background-color: rgba(245,222,179,1);
+	text-decoration-line: underline;
+	color:#2E8B57;
+}
+#toptitulo:hover{
+	color:orange;
+	box-shadow:5px 5px 10px #696969;
+
+}
+#topdescripcion{
+	position: absolute;
+	font-size: 20px;
+	font-family: Franklin Gothic Book,Eras Demi ITC,ebrima, arial;
+	margin-left:70% ;
+	margin-top: 80px;
+	scroll-behavior: ;
+	margin-bottom: ;
+	margin-right:0 ;
+	padding-left:0px ;
+	padding-bottom: ;
+	padding-right: ;
+	padding-top: ;
+	white-space: pre;
+}
+
+
+/*PIE DE PAGINA */
+footer{
+	background-color: rgba(255,165,0,0.8) ;
+	width: 100%;
+	height: 250px;
+	bottom: 0px;
+	border-top: 5px outset orange;
+	margin-top: 40px;  
+	position: none;
+}
+#iconoredes{
+	width: 40px;
+	height: 40px;
+}
+#listapopular{
+	float: left;
+	margin:0 0;
+	margin-left: 18%;
+	list-style: none;
+	text-align: center;
+}
+#Titulopopular{
+	margin-top: 0;
+	text-decoration: underline;
+	font-family: century Gothic;
+	margin-bottom: 4px;
+}
+#Tags,#EnlacePopular{
+	font-family: Century Gothic;
+	font-size: 18px;
+	line-height: 30px;
+	margin-top: 0;
+}
+#listaredes {
+	float: right;
+	margin: 0 0;
+	margin-right: 12%;
+	list-style: none;
+	display: inline;
+}
+#listadoredes{
+	display: inline;
+	padding-left: 10px;
+}
+
+#Tituloredes{
+	margin:0 0;
+	text-decoration: underline;
+	font-family: century Gothic;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+div.vertical-line {
+	background-color: black;
+	height: 180px;
+	width: 3px;
+	position: absolute;
+	left: 67%;
+
+}
+#politica{
+	float: left;
+	display: block;
+	margin: 0 0;
+	margin-left: 7%;
+	padding: 0 0;
+}
+
+#listadoprivacidad{
+	list-style:none;
+	display: block;
+	position: relative;
+	font-family: Century Gothic;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration:none;
+	line-height: 50px
+}
+div.line{
+	background-color: black;
+	height: 180px;
+	width: 3px;
+	position: absolute;
+	left: 33%;
+}
+
+#EnlacePopular, #enlacepriv{
+	color:black;
+}
+#EnlacePopular:hover, #enlacepriv:hover{
+	color:black;
+	text-decoration: underline;
+}

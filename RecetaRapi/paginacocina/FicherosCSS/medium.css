@@ -1,0 +1,53 @@
+.display-medium{
+	display: inherit !important;
+}
+
+
+/*BUSCADOR */
+
+#buscador input {
+	width: 35%;
+	font-size: 90%
+}
+#buscador button{
+	font-size: 80%
+}
+
+/*MENU*/
+
+#barraboton  {
+	font-size: 17px;
+}
+#INICIOSESION{
+	font-size: 17px;
+}
+
+#MIPERFIL{
+	font-size: 17px;
+}
+
+
+#menu{
+	font-size: 17px;
+}
+/*TABLA CATEGORIAS*/
+
+table.tabla2{
+	display: none;
+}
+
+caption.titulo-cate{
+	font-size: 35px;
+}
+
+td.cuadro{
+	font-size: 25px;
+}
+
+h2.categoria{
+	font-size: 18px;
+}
+
+p.parrafo{
+	font-size: 50px;
+}

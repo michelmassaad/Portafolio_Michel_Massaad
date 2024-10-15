@@ -1,0 +1,146 @@
+.display-mini8{
+	display: inherit !important;
+}
+
+div.cuadro-perfil{
+	border:inset orange 5px;
+	width: auto;
+	margin-left: 7%;
+	margin-right: 7%;
+	min-height: 180px;
+
+}
+img.usuario{
+	width: 50px;
+	height: 50px;
+}
+
+.nombre-correo{
+	font-size: 9px;
+	margin-top: 20px;
+}
+p.lapiz{
+	font-size: 11px;
+}
+/*RECETAS FAVORITAS*/
+
+.favoritas{
+	border:inset 5px orange;
+	width: auto;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	border-radius: 5%;
+	padding-bottom: 30px;
+}
+h2.favorita{
+	width: 100%;
+	text-indent: 5%;	
+	font-size: 14px;
+	border-bottom: 4px solid;
+}
+
+p.fav{
+	margin-top: 50px;
+	font-size: 12px;
+	
+}
+/*cuadro bloque receta*/
+div.container{
+	margin-top: 10px;
+	margin-bottom: -30px;
+	border:2.5px inset orange;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 6%;
+	width: auto;
+	margin-right:1.5%;
+	height: 130px;
+	margin-left:1.5%;
+	padding: 7px 2px;
+}
+
+div.flexslider{
+	width: 110px;
+	height: 110px;
+	margin-top: 12px;
+}
+
+/*SHOXSLIDE imagenes */
+.slides{
+	padding: 0;
+	margin: 0 5px;
+}
+.fotoreceta img{
+	width: 95px;
+	height: 95px;
+}
+
+ul .slides li.fotoreceta{
+	width: 95px;
+	height: 95px;
+}
+/*ESTILO DE PUNTOS DE SLIDE SHOW*/
+.flex-control-nav li{
+	margin-right: 12px;
+}
+.flex-control-nav li a{
+	border: 0.5px solid black;
+	width: 5px;
+	height: 5px;
+}
+
+ol.flex-control-nav, 
+.flex-control-paging{
+	width: 70px;
+	height: 10px;
+	margin-top: 80px ;
+	margin-left: 35px ;
+}
+li.flex-nav-next{
+	margin:0;
+}
+.flex-direction-nav li{
+	margin-top: -25px;
+	margin-right:50px;
+	margin-left:-35px ; 
+}
+.flex-direction-nav a:before {
+  font-size: 7px;  
+}
+a.flex-next:before{
+	padding: 50px 10px;
+} 
+li a.flex-prev {
+	padding: 50px 0;
+}
+ul.flex-direction-nav{
+	width: 220px;
+}
+/*TITULO*/
+h2.titulo{
+	font-size: 0.7em;
+	margin-top: 0px;
+} 
+
+/*ESTRELLAS*/
+form.clasificacion{
+	font-size: 0.7em;
+	height: 20px;
+}
+
+/*TIME COOK*/
+.cooktime{
+	top: 2px;
+	left: 20px;
+	font-size: 0.7em;
+}
+
+/*ETIQUETAS*/
+.etiquetas{
+	font-size: 9px;
+}
+/*INGREDIENTES*/
+p.ingredientes{
+	font-size: 0.5em;
+	margin-top: 10px;
+}
+

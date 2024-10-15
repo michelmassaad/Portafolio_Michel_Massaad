@@ -1,0 +1,152 @@
+.display-mini8{
+	display: inherit !important;
+}
+
+/*ESTRELLAS*/
+form.clasificacion{
+display: none;
+}
+
+/*TIME COOK*/
+.cooktime{
+display: none;
+}
+
+/*ETIQUETAS*/
+.etiquetas{
+display: none;
+
+}
+/*INGREDIENTES*/
+p.ingredientes{
+display: none;
+}
+
+
+div.cuadro-perfil{
+	border:inset orange 5px;
+	width: auto;
+	margin-left: 7%;
+	margin-right: 7%;
+	min-height: 150px;
+
+}
+img.usuario{
+	width: 50px;
+	height: 50px;
+}
+
+.nombre-correo{
+	font-size: 6px;
+	margin-top: 20px;
+}
+p.lapiz{
+	font-size: 8px;
+}
+/*RECETAS FAVORITAS*/
+
+.favoritas{
+	border:inset 5px orange;
+	width: auto;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	border-radius: 5%;
+	padding-bottom: 30px;
+}
+h2.favorita{
+	width: 100%;
+	text-indent: 5%;	
+	font-size: 10px;
+	border-bottom: 4px solid;
+}
+
+p.fav{
+	margin-top: 50px;
+	font-size: 8px;
+	
+}
+/*cuadro bloque receta*/
+div.container{
+	margin-top: 10px;
+	margin-bottom: -30px;
+	border:2px inset orange;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 5%;
+	width: auto;
+	margin-right:15%;
+	height: 120px;
+	margin-left:15%;
+	padding: 7px 2px;
+}
+
+div.flexslider{
+	width: auto;
+	height: 100px;
+	margin-top: 30px;
+	margin-left: 10px;
+
+}
+
+/*SHOXSLIDE imagenes */
+.slides{
+	padding: 0;
+	margin: 0 5px;
+}
+.fotoreceta img{
+	width: 80px;
+	height: 80px;
+}
+
+ul .slides li.fotoreceta{
+	width: 80px;
+	height: 80px;
+}
+/*ESTILO DE PUNTOS DE SLIDE SHOW*/
+.flex-control-nav li{
+	margin-right: 12px;
+}
+.flex-control-nav li a{
+	border: 0.5px solid black;
+	width: 5px;
+	height: 5px;
+}
+
+ol.flex-control-nav, 
+.flex-control-paging{
+	width: 80px;
+	height: 10px;
+	margin-top: 70px ;
+	margin-left: 25px ;
+}
+li.flex-nav-next{
+	margin:0;
+}
+.flex-direction-nav li{
+	margin-top: -35px;
+	margin-right:35px;
+	margin-left:-35px ; 
+}
+.flex-direction-nav a:before {
+  font-size: 9px;  
+}
+a.flex-next:before{
+	padding: 50px 10px;
+} 
+li a.flex-prev {
+	padding: 50px 0;
+}
+ul.flex-direction-nav{
+	width: 120px;
+}
+/*TITULO*/
+h2.titulo{
+	font-size: 0.6em;
+	margin-top: 0px;
+	float: none;
+	width: auto;
+	position: absolute;
+	text-align: left;
+	margin-left: 10px;
+} 
+
+

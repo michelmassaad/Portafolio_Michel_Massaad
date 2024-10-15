@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>caja de olvido de contraseña</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="olvidaste tu contraseña.css">
+<link rel="stylesheet" type="text/css" href="pantallas-olvido-contraseña/great.css" media="screen and (min-width:700px)">
+<link rel="stylesheet" type="text/css" href="pantallas-olvido-contraseña/medium.css" media="screen and (min-width: 300px) and (max-width:699px)">
+<link rel="stylesheet" type="text/css" href="pantallas-olvido-contraseña/mini.css"  media="screen and (min-width:230px) and (max-width:299px)">
+<link rel="stylesheet" type="text/css" href="pantallas-olvido-contraseña/mini2.css"  media="screen and (min-width:0px)  and (max-width:229px)">
+
+<!--FICHERO DE JAVASCRIPT-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.3.0.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="../paginacocina/js/jquery-3.5.1.min.js"></script>
+ </head>
+ <body>
+ 
+    <div class="login" id="cajadeinicio" >
+      <a href="../PAGINA WEB COCINA.php"><img src="../paginacocina/Recetas Rapi.jpg" class="avatar" alt="recetas Rapi"></a>
+      <h1>¿Olvidaste tu Contraseña?</h1>
+      <form method="POST"  id="recupera">
+        <!-- USERNAME INPUT -->
+        <label for="username">Usuario</label>
+        <input id="correo" type="email" name="correo" placeholder="Ingresa tu Email" style="text-transform: lowercase;"  maxlength="149" required="">
+        <!-- PASSWORD INPUT -->
+        <!-- <input type="submit" value="Iniciar"> -->
+        <input type="submit" id="boton" value="Continuar">
+        <p class="abajo"><a href="../INGRESAR.php">Iniciar sesión...</a></p>
+        <p class="abajo"><a href="../Registrate aqui.php">Registrate aqui...</a></p>
+      </form>
+    </div>
+<br>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.0/sweetalert2.js"></script>
+<script src="recupera.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

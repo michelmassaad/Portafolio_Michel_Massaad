@@ -1,0 +1,281 @@
+.display-great{
+	display: none;
+}
+
+.display-medium{
+	display: none;
+}
+.display-mini{
+	display: none;
+}
+
+.display-peque{
+	display: none;
+}
+.display-mini3{
+	display: none;
+}
+
+.display-mini4{
+	display: none;
+}
+.display-mini5{
+	display: none;
+}
+.display-mini6{
+	display: none;
+}
+.display-mini7{
+	display: none;
+}
+.display-mini8{
+	display: none;
+}
+
+
+/*CUADRO DE RECETA*/
+div.container{
+	margin-top: 25px;
+	margin-bottom: 0px;
+	border:5px inset orange;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 3%;
+	width: 60%;
+	height: 280px;
+	margin-left: 30px;
+	padding: 15px;
+	cursor: pointer;
+}
+.container:hover {
+	box-shadow: 5px 5px 10px #696969 ;
+}
+
+/*ENLACE*/
+
+a {
+	text-decoration-line: none;
+	color: black; 
+}
+
+a:hover,a:active{
+	text-decoration-line: none;
+	color: orange;
+	background-color:transparent;
+}
+a.ingredientes:hover,:active{
+	text-decoration-line: none;
+	color: black;
+}
+.titulo:hover ,:active{
+	color: orange;
+}
+
+/*SHOXSLIDE imagenes */
+.slides{
+	list-style: none;
+	padding: 0;
+	margin: 0 15px;
+	position: absolute;
+}
+.fotoreceta img{
+	width: 250px;
+	height: 250px;
+	border-radius: 3%;
+	position: absolute;
+}
+li.fotoreceta img{
+	position: absolute;
+}
+
+.fotoreceta:hover img{
+	transform: scale(1.02);
+}
+ul .slides li.fotoreceta{
+	width: 250px;
+	height: 250px;
+	position: absolute;
+}
+/*ESTILO DE PUNTOS DE SLIDE SHOW*/
+.flex-control-nav li{
+	list-style: none;
+	display: inline-block;
+	position: relative;
+	margin-right: 12px;
+	z-index: 999;
+}
+.flex-control-nav li a{
+	display: block;
+	position: relative;
+	background: #D3D3D3;
+	border: 1.45px solid black;
+	width: 6px;
+	height: 6px;
+	border-radius: 6px ;  
+	text-indent: -9999px;
+	opacity: 0.3;
+}
+
+.flex-control-nav li a:hover{
+	background: #DCDCDC;
+	opacity: 0.8;
+}
+
+.flex-control-nav li a.flex-active{
+	background: #DCDCDC;
+	opacity: 2	
+}
+ol.flex-control-nav, 
+.flex-control-paging{
+	position: absolute;
+	width: 70px;
+	height: 10px;
+	margin-top: 230px ;
+	margin-left: 115px ;
+	padding: 0;
+}
+
+/*ESTILO DE FLECHAS DEL SHOW SLIDE */
+@font-face {
+  font-family: 'flexslider-icon';
+  src: url('fonts/flexslider-icon.eot');
+  src: url('fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'), url('fonts/flexslider-icon.woff') 
+  format('woff'), url('fonts/flexslider-icon.ttf') format('truetype'), url('fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.flex-direction-nav li{
+	list-style: none;
+	position: relative;
+	margin-top: 60px;
+	margin-right: 160px;
+	margin-left:-18px ; 
+	z-index: 999;
+	display:inline-block;
+	position: relative;
+}
+.flex-direction-nav a:before {
+  font-family: "flexslider-icon";
+  font-size: 15px;
+  display: inline-block;
+  content: '\f001';
+  color: #696969;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+  
+}
+.flex-direction-nav a.flex-next:before {
+  content: '\f002';
+}
+a.flex-next:before{
+	padding: 50px 20px;
+} 
+li.flex-nav-next{
+	margin-right:0;
+}
+li a.flex-prev {
+	padding: 50px 0;
+}
+li a.flex-prev{
+	color:transparent;
+}
+li a.flex-next{
+	color:transparent;
+}
+ul.flex-direction-nav{
+	width: 400px;
+}
+div.flexslider{
+	float: left;
+	width: 320px;
+	height: 265px;
+	margin-top: 15px;
+}
+
+/*TITULO*/
+h2.titulo{
+	font-size: 1.75em;
+	font-family: Century Gothic ,arial;
+	text-decoration: none;
+	color:black;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	white-space: pre-line;
+} 
+
+/*ESTRELLAS*/
+form.clasificacion{
+	text-align: left;
+	font-size: 1.563em;
+	float: left;
+	height: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+label{
+	color:grey;
+}
+/*.active {
+  color: orange;
+}*/
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+
+/*TIME COOK*/
+.cooktime{
+	top: 4px;
+	left: 20px;
+	font-size: 0.938em;
+	font-family: Century Gothic;
+	position: relative;
+	float: left;
+}
+
+/*ETIQUETAS*/
+.etiquetas{
+	margin: 0;
+	position: relative;
+	font-family: ebrima;
+}
+/*INGREDIENTES*/
+p.ingredientes{
+	white-space: pre;
+	font-family: ebrima,Century Gothic, arial;
+	font-size: 1.125em;
+	margin:0;
+	margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

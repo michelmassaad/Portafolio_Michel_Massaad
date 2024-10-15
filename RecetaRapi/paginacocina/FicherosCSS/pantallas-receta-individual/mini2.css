@@ -1,0 +1,122 @@
+.display-peque{
+	display: inherit !important;
+}
+/*SHOXSLIDE imagenes */
+.fotoreceta img{
+	width: 380px;
+	height: 380px;
+	border-radius: 3%;
+}
+ul .slides li.fotoreceta{
+	width: 380px;
+	height: 380px;
+}
+/*ESTILO DE PUNTOS DE SLIDE SHOW*/
+.flex-control-nav li{
+	margin-right: 12px;
+}
+.flex-control-nav li a{
+	border: 1.45px solid black;
+	width: 8px;
+	height: 8px;
+	border-radius: 6px ;  
+}
+ol.flex-control-nav, 
+.flex-control-paging{
+	width: 100%;
+	height: 10px;
+	margin-top: 350px ;
+	padding: 0;
+}
+
+/*ESTILO DE FLECHAS DEL SHOW SLIDE */
+.flex-direction-nav li{
+	margin-top: 180px;
+	margin-right: 260px;
+	margin-left:-30px;
+}
+.flex-direction-nav a:before {
+  font-size: 20px; 
+}
+
+li.flex-nav-next{
+	margin: 0;
+}
+ul.flex-direction-nav{
+	width:100%;
+	padding-left: 40px;
+}
+div.flexslider{
+	height: 400px;
+	margin-top: 15px;
+}
+
+
+/*ESPACIO FOTO*/
+figure.center{
+	height: 400px;
+}
+/*CUADRO DE RECETA*/
+div.cuadro-receta{
+	border:5px inset orange;
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 2%;
+	margin-right: 8%;
+	margin-left: 8%;
+	padding: 35px 70px;
+}
+
+
+/*TITULO RECETA*/
+h2.titulo{
+	padding: 7px;
+	border-radius: 3%;
+	width:35%;
+	font-size: 1.7em;
+	margin-top: 20px;
+}
+
+
+/*SEPARACION*/
+table.tabla{
+	margin-bottom:20px;
+	margin-top: 20px;
+}
+td.receta{
+	border:5px orange inset;
+	width: 5%;
+	height:40px;
+	font-size: 16px;
+}
+
+h2.ingredientes{
+	font-size: 30px;
+	margin-top: 40px;
+}
+h2.preparacion{
+	font-size: 30px;
+}
+p.preparacion{
+	font-size: 16px;
+	margin-right: 10%;
+	margin-left: 10%;
+	line-height: 40px;
+}
+
+p.ingredientes{
+	font-size: 16px;
+	line-height: 40px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+p.ingredientes2{
+	font-size: 16px;
+	line-height: 40px;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+.columna{
+	column-count:1;
+
+}

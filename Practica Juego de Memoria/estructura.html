@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Juego De Memoria</title>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+
+</head>
+<body>
+
+ <div id="bienvenida" class="bienvenida">
+      <h1>👋  Start  👋</h1>
+        <h2 class="dificultad">Elige la dificultad</h2>
+
+      <div class="bienvenida-botones">
+        <button id="juego-relax">Facil </button>
+        <button id="juego-normal">Difícil</button>
+
+      </div>
+    </div>
+
+
+<!--Encabezado-->
+
+	<h1 class="titulojuego">Juego De Memoria</h1>
+    <button class="boton-volver"><img class="imagen-volver" src="icono-volver.png"></button>
+
+<header class="cabecera">
+	<div class="cronometro">
+			<h4 class="tituloCabecera">Tiempo</h4>
+		<div class="cabecera-num">
+			<span id="minutos">00</span>:<span id="segundos">00</span>
+		</div>
+	</div>
+<!--Movimientos-->
+	<div class="movimientos">
+			<h4 class="tituloCabecera">Movimientos</h4>
+		<div class="cabecera-num">
+			<span id="mov">00</span>/<span id="mov-totales">00</span>
+		</div>
+	</div>
+
+    <button class="boton-cabecera"><img class="imagen-reiniciar" src="iconoreiniciar.png"></button>
+
+
+<!--Sube Nivel-->
+
+<div class="nivel">
+	<h4 class="tituloCabecera">Nivel</h4>
+	<span  class="cabecera-num" id="nivel">01</span>
+</div>
+ <button id="control-nivel" class="control-nivel">…</button>
+
+</header>
+
+
+<!--Mesa de cartas-->
+<main >
+<div id="mesa" class="mesa"></div>
+
+<div id="subeNivel" class="subeNivel">
+	<div class="modal">
+		<h2 class="tituloModal">Excelente</h2>
+		<button id="subir" class="subir">Siguiente Nivel</button>
+		<button class="reiniciar">Reiniciar</button>
+	</div>
+</div>
+<div id="gameOver" class="gameOver">
+	<div class="modal">
+		<h2 class="tituloModal">¡Oh no!</h2>
+		<p>Te has quedado sin movimientos</p>
+		<button class="reiniciar">Reiniciar</button>
+	</div>
+</div>
+      <div id="timeOver" class="gameOver">
+        <div class="modal">
+          <h2 class="tituloModal">¡Oh no!</h2>
+          <p>Te has quedado sin tiempo 😭</p>
+          <button class="reiniciar">Reiniciar</button>
+        </div>
+      </div>
+<div id="endGame" class="endGame">
+	<div class="modal">
+		<h2 class="tituloModal">¡Felicidades!</h2>
+		<p>Has superado todos los niveles</p>
+		<button class="reiniciar">Reiniciar</button>
+	</div>
+</div>
+
+</main>	
+ <div class="selecciona-nivel">
+      <button id="cierra-niveles" class="cierra-niveles">&times;</button>
+      <ul ></ul>
+    </div>
+<!--Boton de reiniciar-->
+
+	<audio
+      src="sonido/acierto.mp3"
+      class="sonido"
+      id="sonido-acierto"
+      preload="auto"
+    ></audio>
+    <audio
+      src="sonido/error.mp3"
+      class="sonido"
+      id="sonido-error"
+      preload="auto"
+    ></audio>
+    <audio
+      src="sonido/carta.mp3"
+      class="sonido"
+      id="sonido-carta"
+      preload="auto"
+    ></audio>
+
+
+</body>
+<script src="variables.js"></script>
+
+<script src="cronometro.js"></script>
+<script src="cambiaNivel.js"></script>
+<script src="gameOver.js"></script>
+<script src="movimientos.js"></script>
+<script src="finalizar.js"></script>
+<script src="acierto-error.js"></script>
+<script src="baraja-reparte.js"></script>
+<script src="descubrir-comparar.js"></script>
+<script src="menuNiveles.js"></script>
+
+<script src="iniciar.js"></script>
+<script src="comienzajuego.js"></script>
+
+</html>

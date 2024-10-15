@@ -1,0 +1,185 @@
+.display-great{
+  display: none;
+}
+
+.display-medium{
+  display: none;
+}
+.display-mini{
+  display: none;
+}
+
+.display-peque{
+  display: none;
+}
+.display-mini3{
+  display: none;
+}
+
+
+/*Alerta*/
+.letra-boton{
+  font-size: 15px;
+  font-weight: bold;
+}
+.titulo-alerta{
+  font-size: 22px;
+  font-family: century Gothic;
+}
+
+.swal2-styled.swal2-confirm{
+  padding: 5px 34px;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  background: url(fondo1.jpg) ;
+  background-repeat:  no-repeat center top;
+  background-size: cover;
+  font-family: sans-serif;
+  background-blend-mode:hard-light; 
+  
+}
+.login {
+  width: 420px;
+  height: 420px;
+  background: rgba(255,255,255,1);
+  border: 5px inset orange;
+  border-radius: 3% 3% 3% 3%;  
+  color: #000;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+.login .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+.login h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 23px;
+  color:black;
+  font-family: Arial black;
+}
+.login label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+  font-family: century Gothic;
+  color:black;
+}
+
+.login input {
+  color:black;
+  margin-bottom: 30px;
+}
+label#nombres{
+  width: 40%;
+  margin-right: 2.5%;
+  float: left;
+  margin:0;
+}
+label#apellidos{
+  width: 49%;
+  height: 20px;
+  float: right;
+  margin: 0;
+}
+input#nombre{
+  width: 45%;
+  float: left;
+  margin-right: 1%; 
+}
+input#apellido{
+  width: 45%;
+  margin-left: 6.2%; 
+}
+label#correos{
+  width: 40%;
+  margin-right: 0%;
+  float: left;
+  margin:0;
+}
+label#passwords{
+  width: 49%;
+  height: 20px;
+  float: right;
+  margin: 0;
+}
+input#correo{
+  width: 45%;
+  float: left;
+  margin-right: 1%; 
+}
+input#password{
+  width: 45%;
+  margin-left: 6.2%; 
+}
+.login label:hover {
+  color:orange;
+}
+.login input[type="email"],.login input[type="text"], .login input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #000;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #000;
+  font-size: 16px;
+}
+.login input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 250px;
+  background: darkorange;
+  color: #000;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  margin-left: calc(50% - 125px);
+}
+
+.login input[type="submit"]:hover {
+  cursor: pointer;
+  background: rgba(255,165,0,0.5);
+  color: #000;
+}
+
+.login a {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: century Gothic;
+  font-weight: bold;
+  line-height: 20px;
+  color: black;
+}
+a#yatienescuenta{
+  margin-left: calc(50% - 85.68px);
+}
+
+.login a:hover {
+  color: orange;
+}
+
+
+/*PIE DE PAGINA */
+footer{
+  margin-top: 900px!important;
+  position:relative ;  
+}

@@ -1,0 +1,101 @@
+.display-mini5{
+	display: inherit !important;
+}
+
+div.contacto-mini{
+	display:block;
+}
+div.contacto{
+	display: none;
+}
+
+.formulario{
+	width: 100%;
+	margin:auto;
+	text-align: right;
+}
+div.cuadro-form{
+	margin-left: 5%;
+	margin-right: 5%;
+	border:solid 5px;
+	border-bottom-right-radius: 5%; 
+	border-bottom-left-radius: 5%; 
+	background:rgba(255,255,255,1);
+}
+div.Mensaje{
+	text-align: right;
+	margin-right: 10%;
+}
+div.sexo{
+	width: 55%;
+	text-align: right;
+}
+input{
+	width: 65%;
+	font-size: 14px;
+}
+textarea{
+	min-width:64.5%;
+	max-width: 64.5%; 
+	font-size: 14px;
+}
+h2.titulo{
+	padding-bottom:20px;
+	margin-top: 20px; 
+	font-size: 20px;
+}
+label{
+	font-size: 14px;
+	margin-right: 20px;
+}
+select{
+	font-size: 14px;
+	width: 50%;
+}
+input[type="submit"] {
+	margin-bottom: 40px;
+	margin-top: 20px;
+	font-size: 16px;
+	height: 35px;
+}
+
+
+/*CONTACTO PAGINA*/
+div.contacto-pag{
+	border:solid 5px;
+	margin-right: 5%;
+	margin-left: 5%;
+	border-bottom: 0;
+	border-top-right-radius:4% ; 
+	border-top-left-radius:4% ; 
+}
+li.imagen{
+	padding-left:15%;
+	width: 80%; 
+	padding-top:20px ; 
+
+}
+ul.lista{
+	padding-top: 5px;
+}
+p{
+	font-size: 18px;
+}
+.imagen-correo,.imagen-redes{
+}
+div.lista-pag{
+}
+.imagen{
+}
+.usuario{
+	width: 90px;
+	height: 90px;
+}
+.imagen-correo{
+	height:19px ;
+	width:24px;
+}
+.imagen-redes{
+	height:24px ;
+	width:24px;
+}

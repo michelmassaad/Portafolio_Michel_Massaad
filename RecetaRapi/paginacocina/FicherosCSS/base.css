@@ -1,0 +1,53 @@
+.display-great{
+	display: none;
+}
+.display-medium{
+	display: none;
+}
+.display-mini{
+	display: none;
+}
+
+.display-peque{
+	display: none;
+}
+
+.display-mini3{
+	display: none;
+}
+.display-mini4{
+	display: none;
+}
+
+.display-mini5{
+	display: none;
+}
+/*ESTILO DEL BUSCADOR */
+#buscador input {
+	align-items: right;
+	align-content:right;
+	margin-right: 0px;
+	padding: 4px;
+	margin-top: 15px;
+	color: black;
+	border: inset;
+	border-color: orange;
+	text-transform: capitalize;
+	width: 30%;
+	margin-left: 0px;
+	font-family: calibri;
+	background-color:white;
+	font-size: 16px;
+	position: relative;
+}
+
+#buscador button{
+	position: relative;
+	align-items:right ;
+	padding: 5px;
+	margin-left: 0px;	
+	border: solid;
+	border-color: orange;
+	margin-top: 0px;
+	background-color:white;
+}

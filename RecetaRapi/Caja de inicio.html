@@ -1,0 +1,40 @@
+   <!DOCTYPE html>
+   <html>
+   <head>
+     <title>caja de inicio</title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.3.0.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="paginacocina/js/jquery-3.5.1.min.js"></script>
+ 
+
+   </head>
+   <body>
+   
+
+   <!--CAJA DE INICIO-->  
+
+    <div class="login" id="cajadeinicio" style="position: fixed;" >
+      <a href="INGRESAR.php"><img src="paginacocina/Recetas Rapi.jpg" class="avatar" alt="Avatar Image">
+      <h1>Inicia Sesion</h1></a>
+      <form id="inicio" method="POST">
+        <!-- USERNAME INPUT -->
+        <label for="username">Usuario</label>
+        <input id="correo" type="email" name="correo" placeholder="Ingresa Tu Correo" maxlength="100" style="text-transform: lowercase;" required="">
+        <!-- PASSWORD INPUT -->
+        <label for="password">Contraseña</label>
+        <input id="password" type="password" name="clave" placeholder="Ingresa Tu Contraseña" maxlength="16" minlength="8" required="">
+        <input type="submit" value="Iniciar">
+        <a href="olvido de contraseña/Olvidaste tu Contraseña.php">Olvidaste tu Contraseña?</a><br>
+        <a href="Registrate aqui.php">Registrate aqui...</a>
+      </form>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.0/sweetalert2.js"></script>
+
+ <script src="paginacocina/js/validar-inicio.js"></script>
+
+   </body>
+   </html>
