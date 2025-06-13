@@ -1,32 +1,78 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mis Proyectos</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Estilo externo -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Michel Massaad | Portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-    <header>
-        <h1>Mis Proyectos</h1>
-    </header>
-    <main>
-        <section class="proyectos">
-            <article>
-                <h2>Juego de Memoria</h2>
-                <p>Realizado con Html, Css y JS.</p>
-                <a href="Practica Juego de Memoria/index.html">Ver más</a>
-            </article>
-            <article>
-                <h2>Juego de Snake</h2>
-                <p>Realizado con Html, Css y JS.</p>
-                <a href="Juego Snake/index.html">Ver más</a>
-            </article>
-            <!-- Añade más proyectos aquí -->
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Michel Massaad</p>
-    </footer>
+  <header>
+    <nav>
+      <h1>Michel Massaad</h1>
+      <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="img/foto-perfil.jpg" alt="Foto de Michel" class="perfil">
+    <h2>Desarrollador Web & Estudiante de Programación</h2>
+    <p>Apasionado por la tecnología, con conocimientos en Python, JavaScript, HTML, CSS, C++, Java y más.</p>
+    <a href="https://drive.google.com/file/d/1iKdoxBiR_-IOOjNT1msgV4y3TExhg2qc/view?usp=sharing" target="_blank" class="botoncv">Ver mi CV</a>
+  </section>
+
+    <section id="habilidades" class="habilidades">
+    <h2>Habilidades & Tecnologías</h2>
+    <div class="tech-logos">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL">
+      <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git">
+    </div>
+  </section>
+
+  <section id="proyectos" class="proyectos">
+    <h2>Proyectos</h2>
+    <div class="tarjetas">
+      <div class="tarjeta">
+        <img src="img/juego-memoria.png" alt="Juego de Memoria">
+        <h3>Juego de Memoria</h3>
+        <p>Hecho con HTML, CSS y JavaScript.</p>
+        <a href="Practica Juego de Memoria/index.html" target="_blank">Ver proyecto</a>
+      </div>
+      <div class="tarjeta">
+        <img src="img/juego-snake.png" alt="Juego Snake">
+        <h3>Juego de Snake</h3>
+        <p>Versión clásica tipo Nokia.</p>
+        <a href="Juego Snake/index.html" target="_blank">Ver proyecto</a>
+      </div>
+      <!-- Agrega más tarjetas aquí -->
+    </div>
+  </section>
+
+  <section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <p>Podés escribirme a <a href="mailto:michel01ft@gmail.com">michel01ft@gmail.com</a> o conectarte en:</p>
+    <div class="redes">
+      <a href="https://linkedin.com/in/michel-massaad" target="_blank">LinkedIn</a>
+      <a href="https://instagram.com/michel_massaad26" target="_blank">Instagram</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Michel Massaad - Todos los derechos reservados</p>
+  </footer>
 </body>
 </html>
