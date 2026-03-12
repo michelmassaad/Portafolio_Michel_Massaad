@@ -71,9 +71,8 @@ npm run deploy
 Si la página se ve en blanco después de un deploy, verificar:
 
 1. **Configuración en GitHub:** Ir a `Settings` > `Pages`. En `Build and deployment`, asegurar que el `Source` esté en **Deploy from a branch** y la rama seleccionada sea **`gh-pages`**.
-2. **Propiedad `homepage`:** Confirmar que en el `package.json` exista la propiedad `"homepage": "https://michelmassaad.github.io/Portafolio_Michel_Massaad/"`.
-3. **Configuración de Vite:** Confirmar que en `vite.config.js` esté declarada la propiedad `base: '/Portafolio_Michel_Massaad/'`.
-4. **Caché:** Abrir la web en una pestaña de incógnito o presionar `Ctrl + F5`.
+2. **Configuración de Vite:** Confirmar que en `vite.config.js` esté declarada la propiedad `base: '/Portafolio_Michel_Massaad/'`.
+3. **Caché:** Abrir la web en una pestaña de incógnito o presionar `Ctrl + F5`.
 
 ---
 
@@ -83,5 +82,5 @@ Si la página se ve en blanco después de un deploy, verificar:
 
 * **Rol:** Estudiante de Sistemas (UTN) | Software Developer
 * **GitHub:** [github.com/michelmassaad](https://github.com/michelmassaad)
-* **LinkedIn:** [linkedin.com/in/michelmassaad](https://www.linkedin.com/in/michelmassaad)
+* **LinkedIn:** [linkedin.com/in/michel-massaad](https://www.linkedin.com/in/michel-massaad/)
 * **Currículum Vitae:** [Ver / Descargar CV](https://drive.google.com/file/d/1oCPZVweegsNWvPIvkfkqvS9LTw1C8EGC/view?usp=sharing)
