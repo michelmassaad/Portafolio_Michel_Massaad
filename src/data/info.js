@@ -19,7 +19,7 @@ export const projects = [
     title: "Motor de Procesamiento Audiovisual",
     category: "Backend & Infraestructura",
     description: "Sistema automatizado de procesamiento de video, metadatos y extracción de eventos con marcadores dinámicos enfocados en la industria deportiva.",
-    techStack: ["Node.js", "Python", "OpenCV"],
+    techStack: ["Node.js", "React" ,"Python", "OpenCV", "JavaScript", "HTML5", "CSS3"],
     githubLink: "#", 
     liveLink: null,
     image: "images/clipping-app.jpg" // Ruta temporal
@@ -30,7 +30,7 @@ export const projects = [
     title: "Figuritas Store - E-Commerce Fullstack",
     category: "Full-Stack",
     description: "Plataforma e-commerce construida con arquitectura Monorepo. Cuenta con una tienda pública estática (diseño Glassmorphism) y un panel administrativo EJS renderizado en el servidor. Implementa operaciones CRUD, autenticación segura con Bcrypt y un Modo Demo con rutas protegidas mediante middlewares.",
-    techStack: ["Node.js", "Express", "EJS", "MySQL", "Vanilla JS"],
+    techStack: ["Node.js", "Express", "EJS", "MySQL","JavaScript", "HTML5", "CSS3"],
     githubLink: "https://github.com/michelmassaad/Figuritas-store", 
     liveLink: "https://figuritas-store-figuritas-backend.vercel.app/",
     image: "images/figuritas-store.png" // ¡Recordá sacar una captura linda de la tienda y guardarla acá!
@@ -57,16 +57,16 @@ export const projects = [
     liveLink: "https://mi-proyecto.com",
     image: "images/basquet.jpg"
   },
-  // 5. LÓGICA PURA
+// 5. LÓGICA PURA Y ALGORITMIA
   {
     id: 5,
-    title: "Motor de Juego: Truco",
+    title: "Truco Argentino - Motor de Juego", 
     category: "Juegos & Algoritmia",
-    description: "Desarrollo completo del clásico juego de cartas aplicando Programación Orientada a Objetos y estructuras de datos eficientes.",
-    techStack: ["Python", "C++", "Java"],
-    githubLink: "https://github.com/michelmassaad/TU-REPO-AQUI", 
-    liveLink: "https://mi-proyecto.com",
-    image: "images/truco.jpg"
+    description: "Desarrollo completo de la lógica del clásico juego de cartas. Implementa un oponente con Inteligencia Artificial configurable (estrategia aleatoria o estratégica avanzada), gestión compleja de estados de partida, y persistencia de historial de puntajes en archivos CSV. Enfoque en estructuras de datos eficientes.",
+    techStack: ["Python", "Pygame", "POO", "Algoritmia"], 
+    githubLink: "https://github.com/michelmassaad/truco-game", 
+    liveLink: null, 
+    image: "images/Truco_MM_Gif.gif" 
   },
   // 6. AUTOMATIZACIÓN
   {
