@@ -24,27 +24,27 @@ export const projects = [
     liveLink: null,
     image: "/images/clipping-app.jpg" // Ruta temporal
   },
-  // 2. EL ECOSISTEMA
+// 2. EL ECOSISTEMA FULLSTACK
   {
     id: 2,
-    title: "Plataforma de Coleccionables (Barajitas)",
+    title: "Figuritas Store - E-Commerce Fullstack",
     category: "Full-Stack",
-    description: "Ecosistema cliente/servidor y modelado de base de datos para manejar inventarios de usuarios y transacciones seguras.",
-    techStack: ["React", "Node.js", "MySQL"],
-    githubLink: "https://github.com/michelmassaad/TU-REPO-AQUI", 
-    liveLink: "https://mi-proyecto.com",
-    image: "/images/barajitas.jpg"
+    description: "Plataforma e-commerce construida con arquitectura Monorepo. Cuenta con una tienda pública estática (diseño Glassmorphism) y un panel administrativo EJS renderizado en el servidor. Implementa operaciones CRUD, autenticación segura con Bcrypt y un Modo Demo con rutas protegidas mediante middlewares.",
+    techStack: ["Node.js", "Express", "EJS", "MySQL", "Vanilla JS"],
+    githubLink: "https://github.com/michelmassaad/Figuritas-store", 
+    liveLink: "https://figuritas-store-figuritas-backend.vercel.app/",
+    image: "/images/figuritas-store.png" // ¡Recordá sacar una captura linda de la tienda y guardarla acá!
   },
   // 3. LA INNOVACIÓN WEB3
   {
     id: 3,
-    title: "KipuBank - Sistema Financiero",
+    title: "KipuBank - Sistema Financiero Web3",
     category: "Web3",
-    description: "Desarrollo de Smart Contracts en Solidity con lógica de validación para operaciones descentralizadas seguras.",
-    techStack: ["Solidity", "React", "Ethereum"],
-    githubLink: "https://github.com/michelmassaad/TU-REPO-AQUI", 
-    liveLink: "https://mi-proyecto.com",
-    image: "/images/kipubank.jpg"
+    description: "Desarrollo y despliegue de un Smart Contract financiero en la red Ethereum (Sepolia). Implementa lógica segura de depósitos, retiros y validación de balances, con código 100% verificado en Etherscan.",
+    techStack: ["Solidity", "Ethereum", "Smart Contracts"],
+    githubLink: "https://github.com/michelmassaad/kipu-bank-v3", 
+    liveLink: "https://sepolia.etherscan.io/address/0x0f7a2D9172e94305b3Ad5A6Ebf6e8e85890a7a93#code",
+    image: "/images/kipubank.jpg" 
   },
   // 4. EL FRONTEND DEPORTIVO (¡El que olvidaste!)
   {
@@ -84,21 +84,21 @@ export const projects = [
     id: 7,
     title: "Classic Snake Game",
     category: "Juegos & Algoritmia",
-    description: "Recreación del clásico juego de la serpiente enfocado en el manejo de bucles de estado y renderizado en DOM.",
-    techStack: ["JavaScript", "HTML5"],
-    githubLink: "https://github.com/michelmassaad/TU-REPO-AQUI", 
-    liveLink: "https://mi-proyecto.com",
-    image: "/images/snake.jpg"
+    description: "Recreación del clásico juego de la serpiente enfocado en el manejo de bucles de estado, detección de colisiones matriciales y renderizado dinámico en el DOM.",
+    techStack: ["JavaScript", "HTML5", "CSS3"],
+    githubLink: "https://github.com/michelmassaad/juego-snake", 
+    liveLink: "https://michelmassaad.github.io/juego-snake/",
+    image: "/images/comienzo_snake.png" // Recordá sacar una captura y guardarla acá
   },
   {
     id: 8,
     title: "Juego de Memoria Visual",
     category: "Frontend",
-    description: "Aplicación interactiva para ejercitar la memoria, implementando manejo de eventos y lógica de emparejamiento.",
-    techStack: ["JavaScript", "CSS3"],
-    githubLink: "https://github.com/michelmassaad/TU-REPO-AQUI", 
-    liveLink: "https://mi-proyecto.com",
-    image: "/images/memoria.jpg"
+    description: "Aplicación interactiva para ejercitar la memoria. Implementa un sistema robusto de manejo de eventos, lógica de emparejamiento de matrices y temporizadores asíncronos.",
+    techStack: ["JavaScript", "HTML5", "CSS3"],
+    githubLink: "https://github.com/michelmassaad/juego-de-memoria", 
+    liveLink: "https://michelmassaad.github.io/juego-de-memoria/",
+    image: "/images/comienzo_memoria.png" // Recordá sacar una captura y guardarla acá
   }
 ];
 
@@ -110,7 +110,7 @@ export const skills = [
   },
   {
     category: "Frameworks & Librerías",
-    items: ["React", "HTML5", "CSS3", "OpenCV", "APIs REST"]
+    items: ["Express.js", "React", "EJS", "HTML5/CSS3", "OpenCV", "APIs REST"]
   },
   {
     category: "Bases de Datos",
