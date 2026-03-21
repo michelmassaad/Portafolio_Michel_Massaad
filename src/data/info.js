@@ -22,7 +22,7 @@ export const projects = [
     techStack: ["Node.js", "Python", "OpenCV"],
     githubLink: "#", 
     liveLink: null,
-    image: "/images/clipping-app.jpg" // Ruta temporal
+    image: "images/clipping-app.jpg" // Ruta temporal
   },
 // 2. EL ECOSISTEMA FULLSTACK
   {
@@ -33,7 +33,7 @@ export const projects = [
     techStack: ["Node.js", "Express", "EJS", "MySQL", "Vanilla JS"],
     githubLink: "https://github.com/michelmassaad/Figuritas-store", 
     liveLink: "https://figuritas-store-figuritas-backend.vercel.app/",
-    image: "/images/figuritas-store.png" // ¡Recordá sacar una captura linda de la tienda y guardarla acá!
+    image: "images/figuritas-store.png" // ¡Recordá sacar una captura linda de la tienda y guardarla acá!
   },
   // 3. LA INNOVACIÓN WEB3
   {
@@ -44,7 +44,7 @@ export const projects = [
     techStack: ["Solidity", "Ethereum", "Smart Contracts"],
     githubLink: "https://github.com/michelmassaad/kipu-bank-v3", 
     liveLink: "https://sepolia.etherscan.io/address/0x0f7a2D9172e94305b3Ad5A6Ebf6e8e85890a7a93#code",
-    image: "/images/kipubank.jpg" 
+    image: "images/kipubank.png" 
   },
   // 4. EL FRONTEND DEPORTIVO (¡El que olvidaste!)
   {
@@ -55,7 +55,7 @@ export const projects = [
     techStack: ["JavaScript", "HTML", "CSS"],
     githubLink: "https://github.com/michelmassaad/TU-REPO-AQUI", 
     liveLink: "https://mi-proyecto.com",
-    image: "/images/basquet.jpg"
+    image: "images/basquet.jpg"
   },
   // 5. LÓGICA PURA
   {
@@ -66,7 +66,7 @@ export const projects = [
     techStack: ["Python", "C++", "Java"],
     githubLink: "https://github.com/michelmassaad/TU-REPO-AQUI", 
     liveLink: "https://mi-proyecto.com",
-    image: "/images/truco.jpg"
+    image: "images/truco.jpg"
   },
   // 6. AUTOMATIZACIÓN
   {
@@ -77,7 +77,7 @@ export const projects = [
     techStack: ["Python", "Lógica de Control"],
     githubLink: "https://github.com/michelmassaad/TU-REPO-AQUI", 
     liveLink: "https://mi-proyecto.com",
-    image: "/images/flappybot.jpg"
+    image: "images/flappybot.jpg"
   },
   // 7 Y 8. LOS CLÁSICOS
   {
@@ -88,7 +88,7 @@ export const projects = [
     techStack: ["JavaScript", "HTML5", "CSS3"],
     githubLink: "https://github.com/michelmassaad/juego-snake", 
     liveLink: "https://michelmassaad.github.io/juego-snake/",
-    image: "/images/comienzo_snake.png" // Recordá sacar una captura y guardarla acá
+    image: "images/comienzo_snake.png" // Recordá sacar una captura y guardarla acá
   },
   {
     id: 8,
@@ -98,7 +98,7 @@ export const projects = [
     techStack: ["JavaScript", "HTML5", "CSS3"],
     githubLink: "https://github.com/michelmassaad/juego-de-memoria", 
     liveLink: "https://michelmassaad.github.io/juego-de-memoria/",
-    image: "/images/comienzo_memoria.png" // Recordá sacar una captura y guardarla acá
+    image: "images/comienzo_memoria.png" // Recordá sacar una captura y guardarla acá
   }
 ];
 
