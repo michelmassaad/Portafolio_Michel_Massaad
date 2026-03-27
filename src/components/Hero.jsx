@@ -68,7 +68,7 @@ const Hero = () => {
               Ver Proyectos
             </a>
             <a 
-              href="https://drive.google.com/file/d/1oCPZVweegsNWvPIvkfkqvS9LTw1C8EGC/view?usp=sharing" 
+              href="https://drive.google.com/file/d/1S_Z-gLgbKsVfToOVQlVPYfSbihdCVFj8/view?usp=sharing" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-[var(--bg-secondary)] text-[var(--text-main)] border border-[var(--border-color)] hover:border-[var(--btn-hover-text)] hover:text-[var(--btn-hover-text)] px-8 py-3.5 rounded-xl font-bold transition-all duration-300 flex items-center justify-center gap-2 w-full sm:w-auto"
