@@ -46,7 +46,7 @@ export const projects = [
     title: "Figuritas Store - E-Commerce Fullstack",
     category: "Backend & Infraestructura", // <-- ¡Cambio clave aquí!
     description: "Plataforma e-commerce construida con arquitectura Monorepo. Cuenta con una tienda pública estática (diseño Glassmorphism) y un panel administrativo EJS renderizado en el servidor. Implementa operaciones CRUD, autenticación segura con Bcrypt y un Modo Demo con rutas protegidas mediante middlewares.",
-    techStack: ["Node.js", "Express", "EJS", "MySQL","JavaScript", "HTML5", "CSS3"],
+    techStack: ["Node.js", "Express.js", "EJS", "MySQL","JavaScript", "HTML5", "CSS3"],
     githubLink: "https://github.com/michelmassaad/Figuritas-store", 
     liveLink: "https://figuritas-store-figuritas-backend.vercel.app/",
     images: ["images/figuritas-store.png"] 
