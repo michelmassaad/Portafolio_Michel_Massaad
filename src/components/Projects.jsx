@@ -5,7 +5,7 @@ import {
   SiReact, SiNodedotjs, SiPython, SiSolidity, SiMysql, SiOpencv, 
   SiJavascript, SiEthereum, SiCplusplus, SiFirebase, SiVite,
   SiAngular, SiSupabase, SiTypescript, SiBootstrap,
-  SiNestjs, SiMongodb
+  SiNestjs, SiMongodb,SiExpress
 } from 'react-icons/si';
 
 import { projects, categories } from '../data/info';
