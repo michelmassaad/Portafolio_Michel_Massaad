@@ -131,6 +131,7 @@ const Projects = () => {
       case 'Bootstrap': return <SiBootstrap className="text-[#7952B3]" />;
       case 'NestJS': return <SiNestjs className="text-[#E0234E]" />;
       case 'MongoDB': return <SiMongodb className="text-[#47A248]" />;
+      case 'Express.js': return <SiExpress className="text-gray-900 dark:text-white transition-colors duration-500" />;
       default: return <FiCode className="text-techBlue" />; 
     }
   };
