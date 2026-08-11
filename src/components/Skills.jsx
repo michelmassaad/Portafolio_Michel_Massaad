@@ -1,6 +1,8 @@
 import { 
   SiJavascript, SiPython, SiSolidity, SiCplusplus, SiNodedotjs, 
-  SiReact, SiMysql, SiMongodb, SiGnubash, SiGit, SiOpencv 
+  SiReact, SiMysql, SiMongodb, SiGnubash, SiGit, SiOpencv,
+  SiTypescript, SiAngular, SiNestjs, SiBootstrap, SiFirebase, SiSupabase,
+  SiVercel, SiRender, SiGithubactions, SiCloudinary, SiExpress
 } from 'react-icons/si';
 import { FaJava, FaHtml5, FaCss3Alt } from 'react-icons/fa';
 
@@ -10,16 +12,21 @@ const Skills = () => {
       category: "Backend & Core",
       items: [
         { name: "Node.js", icon: <SiNodedotjs className="text-[#339933]" /> },
+        { name: "Express.js", icon: <SiExpress className="text-gray-900 dark:text-white transition-colors duration-500" /> },
+        { name: "NestJS", icon: <SiNestjs className="text-[#E0234E]" /> },
         { name: "Python", icon: <SiPython className="text-[#3776AB]" /> },
         { name: "C++", icon: <SiCplusplus className="text-[#00599C]" /> },
-        { name: "Java", icon: <FaJava className="text-[#007396]" /> }
+        { name: "Java", icon: <FaJava className="text-[#007396]" /> },
       ]
     },
     {
       category: "Frontend & UI",
       items: [
         { name: "React", icon: <SiReact className="text-[#61DAFB]" /> },
+        { name: "Angular", icon: <SiAngular className="text-[#DD0031]" /> },
+        { name: "TypeScript", icon: <SiTypescript className="text-[#3178C6]" /> },
         { name: "JavaScript", icon: <SiJavascript className="text-[#F7DF1E]" /> },
+        { name: "Bootstrap", icon: <SiBootstrap className="text-[#7952B3]" /> },
         { name: "HTML5", icon: <FaHtml5 className="text-[#E34F26]" /> },
         { name: "CSS3", icon: <FaCss3Alt className="text-[#1572B6]" /> }
       ]
@@ -28,7 +35,9 @@ const Skills = () => {
       category: "Bases de Datos",
       items: [
         { name: "MySQL", icon: <SiMysql className="text-[#4479A1]" /> },
-        { name: "MongoDB", icon: <SiMongodb className="text-[#47A248]" /> }
+        { name: "MongoDB", icon: <SiMongodb className="text-[#47A248]" /> },
+        { name: "Firebase", icon: <SiFirebase className="text-[#FFCA28]" /> },
+        { name: "Supabase", icon: <SiSupabase className="text-[#3ECF8E]" /> }
       ]
     },
     {
@@ -39,6 +48,15 @@ const Skills = () => {
         name: "Solidity", 
         icon: <SiSolidity className="text-gray-900 dark:text-white transition-colors duration-500" /> 
         }
+      ]
+    },
+    {
+      category: "Despliegue & DevOps",
+      items: [
+        { name: "Vercel", icon: <SiVercel className="text-gray-900 dark:text-white transition-colors duration-500" /> },
+        { name: "Render", icon: <SiRender className="text-[#46E3B7]" /> },
+        { name: "GitHub Actions", icon: <SiGithubactions className="text-[#2088FF]" /> },
+        { name: "Cloudinary", icon: <SiCloudinary className="text-[#3448C5]" /> }
       ]
     },
     {
