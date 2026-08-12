@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "MICHEL MASSAAD",
-  role: "Software Developer | Backend & Infraestructura",
-  about: "Software Developer próximo a graduarse en Programación y Sistemas (UTN), especializado en el diseño de arquitecturas Backend, bases de datos y desarrollo Full-stack. Apasionado por la automatización y el ecosistema deportivo, combino mi conocimiento del negocio audiovisual con tecnologías modernas para crear herramientas eficientes y escalables.",
+  role: "Full-Stack Developer | Backend & Infraestructura",
+  about: "Full-Stack Developer próximo a graduarse en Programación y Sistemas (UTN), especializado en el diseño de arquitecturas Backend, bases de datos y desarrollo Full-stack. Apasionado por la automatización y el ecosistema deportivo, combino mi conocimiento del negocio audiovisual con tecnologías modernas para crear herramientas eficientes y escalables.",
   contact: {
     email: "michel01ft@gmail.com",
     linkedin: "https://linkedin.com/in/michel-massaad",
