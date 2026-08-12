@@ -1,9 +1,20 @@
 import { useState, useEffect } from 'react';
 import { FiSun, FiMoon, FiMenu, FiX } from 'react-icons/fi';
 
+// Afuera del componente: así no se recrea en cada render y el useEffect
+// que arma el IntersectionObserver puede depender de él con seguridad.
+const navLinks = [
+  { name: 'Inicio', href: '#inicio' },
+  { name: 'Stack', href: '#sobre-mi' },
+  { name: 'Experiencia', href: '#experiencia' },
+  { name: 'Educación', href: '#educacion' },
+  { name: 'Proyectos', href: '#proyectos' },
+];
+
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark');
+  const [activeSection, setActiveSection] = useState('inicio');
 
   useEffect(() => {
     // Aplicamos la clase al documento y guardamos preferencia
@@ -11,15 +22,35 @@ const Navbar = () => {
     localStorage.setItem('theme', theme);
   }, [theme]);
 
-  const toggleTheme = () => setTheme(theme === 'dark' ? 'light' : 'dark');
+  // Scroll-spy: detecta qué sección está actualmente "en pantalla"
+  // y marca el link correspondiente como activo, sin usar rutas.
+  useEffect(() => {
+    const sectionIds = navLinks.map((link) => link.href.substring(1));
+    const sections = sectionIds
+      .map((id) => document.getElementById(id))
+      .filter(Boolean);
 
-  const navLinks = [
-    { name: 'Inicio', href: '#inicio' },
-    { name: 'Stack', href: '#sobre-mi' },
-    { name: 'Experiencia', href: '#experiencia' },
-    { name: 'Educación', href: '#educacion' },
-    { name: 'Proyectos', href: '#proyectos' },
-  ];
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveSection(entry.target.id);
+          }
+        });
+      },
+      {
+        // Franja angosta cerca del centro vertical de la pantalla — así se activa
+        // el link cuando la sección realmente está "siendo vista", no apenas asoma.
+        rootMargin: '-45% 0px -50% 0px',
+        threshold: 0,
+      }
+    );
+
+    sections.forEach((section) => observer.observe(section));
+    return () => sections.forEach((section) => observer.unobserve(section));
+  }, []);
+
+  const toggleTheme = () => setTheme(theme === 'dark' ? 'light' : 'dark');
 
   return (
     <nav 
@@ -43,19 +74,28 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-12">
           <ul className="flex items-center gap-10 text-base lg:text-lg font-bold tracking-tight">
-            {navLinks.map((link) => (
-              <li key={link.name}>
-                <a 
-                  href={link.href} 
-                  className="transition-colors relative group"
-                  style={{ color: 'var(--text-muted)' }}
-                >
-                  <span className="group-hover:text-techBlue transition-colors">{link.name}</span>
-                  {/* El subrayado siempre usa el azul de marca */}
-                  <span className="absolute -bottom-2 left-0 w-0 h-1 bg-techBlue transition-all duration-300 group-hover:w-full rounded-full"></span>
-                </a>
-              </li>
-            ))}
+            {navLinks.map((link) => {
+              const isActive = activeSection === link.href.substring(1);
+              return (
+                <li key={link.name}>
+                  <a 
+                    href={link.href} 
+                    className="transition-colors relative group"
+                    style={isActive ? undefined : { color: 'var(--text-muted)' }}
+                  >
+                    <span className={`group-hover:text-techBlue transition-colors ${isActive ? 'text-techBlue' : ''}`}>
+                      {link.name}
+                    </span>
+                    {/* El subrayado siempre usa el azul de marca; queda fijo si el link está activo */}
+                    <span 
+                      className={`absolute -bottom-2 left-0 h-1 bg-techBlue transition-all duration-300 rounded-full ${
+                        isActive ? 'w-full' : 'w-0 group-hover:w-full'
+                      }`}
+                    ></span>
+                  </a>
+                </li>
+              );
+            })}
           </ul>
 
           <div className="w-px h-6 bg-gray-700/30"></div>
@@ -113,18 +153,21 @@ const Navbar = () => {
         }}
       >
         <ul className="flex flex-col items-center gap-8 text-xl font-black uppercase tracking-widest">
-          {navLinks.map((link) => (
-            <li key={link.name}>
-              <a 
-                href={link.href} 
-                onClick={() => setIsMobileMenuOpen(false)}
-                className="hover:text-techBlue transition-colors"
-                style={{ color: 'var(--text-muted)' }}
-              >
-                {link.name}
-              </a>
-            </li>
-          ))}
+          {navLinks.map((link) => {
+            const isActive = activeSection === link.href.substring(1);
+            return (
+              <li key={link.name}>
+                <a 
+                  href={link.href} 
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className={`transition-colors ${isActive ? 'text-techBlue' : 'hover:text-techBlue'}`}
+                  style={isActive ? undefined : { color: 'var(--text-muted)' }}
+                >
+                  {link.name}
+                </a>
+              </li>
+            );
+          })}
         </ul>
       </div>
     </nav>
