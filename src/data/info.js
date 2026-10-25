@@ -55,6 +55,7 @@ export const projects = [
     githubLink: null,
     privateRepo: true,
     liveLink: null,
+    apkLink: "https://drive.google.com/file/d/1iGSB6Z3nQgPqGH_EaTIxVO_r5qkn4qnR/view?usp=drive_link",
     // Portadas de la tarjeta (composiciones 1200x630 de dos capturas verticales)
     images: [SOBREMESA_COVERS[0], SOBREMESA_COVERS[1]],
     // Galería completa para el lightbox

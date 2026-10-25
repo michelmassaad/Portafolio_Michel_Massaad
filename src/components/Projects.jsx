@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { FiGithub, FiExternalLink, FiFolder, FiCode, FiChevronLeft, FiChevronRight, FiZoomIn, FiX } from 'react-icons/fi';
+import { FiGithub, FiExternalLink, FiFolder, FiCode, FiChevronLeft, FiChevronRight, FiZoomIn, FiX, FiDownload } from 'react-icons/fi';
 import { FaJava, FaHtml5, FaCss3Alt } from 'react-icons/fa';
 import { 
   SiReact, SiNodedotjs, SiPython, SiSolidity, SiMysql, SiOpencv, 
@@ -240,6 +240,17 @@ const Projects = () => {
                     <span className="text-xs italic text-[var(--text-muted)] py-2 px-1">
                       Repositorio privado · disponible a pedido
                     </span>
+                  )}
+
+                  {project.apkLink && (
+                    <a 
+                      href={project.apkLink} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-sm font-medium text-techBlue hover:text-blue-400 hover:bg-techBlue/10 transition-colors py-2 px-3 rounded-lg ml-auto"
+                    >
+                      <FiDownload size={18} /> Descargar APK
+                    </a>
                   )}
 
                   {project.liveLink && (
