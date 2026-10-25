@@ -12,6 +12,21 @@ export const personalInfo = {
 // Categorías para tu sistema de filtrado
 export const categories = ["Todos", "Backend & Infraestructura", "Full-Stack", "Web3", "Frontend", "Juegos & Algoritmia"];
 
+// Capturas de SobreMesa (alojadas en el Cloudinary del equipo; f_auto,q_auto las optimiza)
+const SM = "https://res.cloudinary.com/fjg8xc9a/image/upload";
+const SOBREMESA_COVERS = [
+  `${SM}/c_pad,w_1200,h_630,b_rgb:1c2a21,f_auto,q_auto/l_Screenshot_20260928_223724,h_560/fl_layer_apply,g_west,x_170/l_Screenshot_20260928_211338,h_560/fl_layer_apply,g_east,x_170/v1790645271/Screenshot_20260928_222740.png`,
+  `${SM}/c_pad,w_1200,h_630,b_rgb:1c2a21,f_auto,q_auto/l_Screenshot_20260928_221723,h_560/fl_layer_apply,g_west,x_170/l_Screenshot_20260928_215446,h_560/fl_layer_apply,g_east,x_170/v1790646567/Screenshot_20260928_224824.png`,
+];
+const SOBREMESA_SHOTS = [
+  `${SM}/f_auto,q_auto,w_800/v1790645271/Screenshot_20260928_222740.png`,
+  `${SM}/f_auto,q_auto,w_800/v1790643296/Screenshot_20260928_215446.png`,
+  `${SM}/f_auto,q_auto,w_800/v1790646567/Screenshot_20260928_224824.png`,
+  `${SM}/f_auto,q_auto,w_800/v1790646788/Screenshot_20260928-225027_SobreMesa.jpg`,
+  `${SM}/f_auto,q_auto,w_800/v1790646891/Screenshot_20260928-225042_SobreMesa.jpg`,
+  `${SM}/f_auto,q_auto,w_800/v1790646919/Screenshot_20260928-225108_SobreMesa.jpg`,
+];
+
 // Proyectos ordenados de mayor a menor complejidad técnica
 export const projects = [
   // 1. TRIBU — El más complejo, arquitectura desacoplada y producción real
@@ -29,7 +44,22 @@ export const projects = [
       "images/tribu-red-social-estadisticas.png",
     ]
   },
-  // 2. KIPU BANK — Smart contract verificado, tecnología de nicho
+  // 2. SOBREMESA — App móvil en equipo (repo privado). Capturas alojadas en Cloudinary.
+  {
+    id: 12,
+    title: "SobreMesa - App de Gestión de Restaurantes",
+    category: "Full-Stack",
+    description: "App móvil de gestión de restaurantes (Trabajo Final Integrador, UTN FRA), desarrollada en equipo de 4. Cubre el recorrido completo del cliente y del personal: ingreso por QR, menú, pedidos con seguimiento de estado y notificaciones, monitores para mozo, cocina y barra, y cobro. Mi parte: servicio de QR reutilizable (lector y generador), dashboard por rol, menú con tarjetas, pedidos y su estado, monitor del mozo y flujo de cobros.",
+    techStack: ["Angular", "Ionic", "Capacitor", "Supabase", "TypeScript"],
+    githubLink: null,
+    privateRepo: true,
+    liveLink: null,
+    // Portadas de la tarjeta (composiciones 1200x630 de dos capturas verticales)
+    images: [SOBREMESA_COVERS[0], SOBREMESA_COVERS[1]],
+    // Galería completa para el lightbox
+    gallery: [...SOBREMESA_COVERS, ...SOBREMESA_SHOTS],
+  },
+  // 3. KIPU BANK — Smart contract verificado, tecnología de nicho
   {
     id: 3,
     title: "KipuBank - Sistema Financiero Web3",

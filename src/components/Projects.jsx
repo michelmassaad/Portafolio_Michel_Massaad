@@ -5,7 +5,7 @@ import {
   SiReact, SiNodedotjs, SiPython, SiSolidity, SiMysql, SiOpencv, 
   SiJavascript, SiEthereum, SiCplusplus, SiFirebase, SiVite,
   SiAngular, SiSupabase, SiTypescript, SiBootstrap,
-  SiNestjs, SiMongodb,SiExpress
+  SiNestjs, SiMongodb,SiExpress, SiIonic, SiCapacitor
 } from 'react-icons/si';
 
 import { projects, categories } from '../data/info';
@@ -132,6 +132,8 @@ const Projects = () => {
       case 'NestJS': return <SiNestjs className="text-[#E0234E]" />;
       case 'MongoDB': return <SiMongodb className="text-[#47A248]" />;
       case 'Express.js': return <SiExpress className="text-gray-900 dark:text-white transition-colors duration-500" />;
+      case 'Ionic': return <SiIonic className="text-[#3880FF]" />;
+      case 'Capacitor': return <SiCapacitor className="text-[#119EFF]" />;
       default: return <FiCode className="text-techBlue" />; 
     }
   };
@@ -164,6 +166,8 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {filteredProjects.map((project) => {
           const projectImages = project.images?.length > 0 ? project.images : [project.image];
+          // Si el proyecto define una galería, el lightbox la usa completa (la tarjeta muestra solo las portadas)
+          const lightboxImages = project.gallery?.length > 0 ? project.gallery : projectImages;
 
           return (
             <div key={project.id} 
@@ -178,7 +182,7 @@ const Projects = () => {
                 <ProjectImageCarousel 
                   images={projectImages} 
                   title={project.title} 
-                  onImageClick={(index) => openLightbox(projectImages, index, project.title)}
+                  onImageClick={(index) => openLightbox(lightboxImages, index, project.title)}
                 />
                 
                 <span className="absolute top-4 left-4 z-20 bg-[var(--bg-badge-overlay)] backdrop-blur-sm text-[var(--text-badge)] text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-md border border-[var(--border-muted)] transition-colors duration-500">
@@ -232,6 +236,12 @@ const Projects = () => {
                     </a>
                   )}
                   
+                  {project.privateRepo && (
+                    <span className="text-xs italic text-[var(--text-muted)] py-2 px-1">
+                      Repositorio privado · disponible a pedido
+                    </span>
+                  )}
+
                   {project.liveLink && (
                     <a 
                       href={project.liveLink} 
