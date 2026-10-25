@@ -49,7 +49,8 @@ export const projects = [
     id: 12,
     title: "SobreMesa - App de Gestión de Restaurantes",
     category: "Full-Stack",
-    description: "App móvil de gestión de restaurantes (Trabajo Final Integrador, UTN FRA), desarrollada en equipo de 4. Cubre el recorrido completo del cliente y del personal: ingreso por QR, menú, pedidos con seguimiento de estado y notificaciones, monitores para mozo, cocina y barra, y cobro. Mi parte: servicio de QR reutilizable (lector y generador), dashboard por rol, menú con tarjetas, pedidos y su estado, monitor del mozo y flujo de cobros.",
+    description: "App móvil de gestión de restaurantes (Trabajo Final Integrador, UTN FRA), desarrollada en equipo de 4. Cubre el recorrido completo del cliente y del personal: ingreso por QR, menú, pedidos con seguimiento de estado y notificaciones, monitores para mozo, cocina y barra, y cobro.",
+    // Mi parte: servicio de QR reutilizable (lector y generador), dashboard por rol, menú con tarjetas, pedidos y su estado, monitor del mozo y flujo de cobros.
     techStack: ["Angular", "Ionic", "Capacitor", "Supabase", "TypeScript"],
     githubLink: null,
     privateRepo: true,
